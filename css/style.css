@@ -1,0 +1,55 @@
+
+
+.nav-primary .navbar-collapse{
+    justify-content: flex-end;
+    /* background-color: rgb(62, 116, 168); */
+
+}
+
+.caroulsel-banner{
+    margin-top: 56px;
+
+}
+
+.caroulsel-banner img{
+    height: 60vh;  
+    object-fit: cover; 
+}
+
+.caroulsel-banner h5{
+    font-size: 3.2rem;
+}
+.section__sobre{
+    margin-top: 15vh;
+    min-height: 70vh;   
+}
+
+h1.title{
+    margin: 25px 0;
+}
+
+.col-lg-4 {
+    margin-bottom: 15px;
+}
+
+.col-lg-4 img{
+    height: 200px;
+}
+
+.row-margin>div{
+    margin-bottom: 25px;
+}
+
+.main-grid{
+    margin-bottom: 25px;
+}
+
+.call-to-action .row{
+    padding: 15px 0;
+}
+
+.box-footer >.container{
+    padding: 25px;
+}
+
+
