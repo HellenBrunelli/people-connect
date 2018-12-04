@@ -19,6 +19,11 @@
 .caroulsel-banner h5{
     font-size: 3.2rem;
 }
+
+.carousel-img{
+    margin-top: 8vh;
+}
+
 .section__sobre{
     margin-top: 15vh;
     min-height: 70vh;   
