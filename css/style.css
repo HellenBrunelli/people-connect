@@ -24,10 +24,15 @@
     margin-top: 8vh;
 }
 
-.section__sobre{
-    margin-top: 15vh;
+/* .section__sobre{
+    margin-top: 9vw;
     min-height: 70vh;   
 }
+
+.section__missao{
+    margin-top:33vh;
+    min-height: 70vh;   
+} */
 
 h1.title{
     margin: 25px 0;
