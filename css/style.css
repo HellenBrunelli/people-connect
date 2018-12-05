@@ -4,8 +4,14 @@ html,body{
     font-family: 'Oswald', sans-serif;
 }
 
+.call-to-action .row{
+    padding: 15px 0;
+}
 
+.nav-primary{
+    background-color: #86A8E7;
 
+}
 
 .nav-primary .navbar-collapse{
     justify-content: flex-end;
@@ -27,46 +33,39 @@ html,body{
 
 .carousel-img{
     margin-top: 8vh;
+} 
+
+
+.section__about {
+    min-height: 100vh;
 }
 
-
-.section__sobre {
-    height: 100%;
-    background-color: aquamarine;
-}
-
-.section__iniciativas {
-    height: 100%;
+.section__initiatives {
+    min-height: 100vh;
     background-color: blanchedalmond;
 }
 
-/* .iniciativas-image{
-    margin-left: 5vh;
-    margin-right: 5vh;
-} */
-
-/* .iniciativas-text{
-    margin-top: 5vh;
-
-} */
-
-h1.title{
-    margin: 25px 0;
+.initiatives-image{
+    max-height: 20vh;
 }
 
-.col-lg-4 {
-    margin-bottom: 15px;
+.section__depositions{
+    min-height: 100vh;
+    background-color: #404756;
 }
 
-.col-lg-4 img{
-    height: 200px;
-}
+
 
 .background-form{
     background-image: url(../img/genoma.jpg);
     background-size: cover;
     height: 100vh;
     padding-top: 80px;
+}
+@media (max-width: 420px) {
+    .background-form {
+        padding-top: 58px;
+    }
 }
 
 hr{
@@ -77,10 +76,35 @@ hr{
     background: rgba(0, 0, 0, .6);
     color: white;  
     box-shadow: 0px 0px 10px 1px rgb(175, 174, 174);
-    border-radius: 10px;  
-    
-
+    border-radius: 10px;
+    width: 60%; 
+    padding-top: 10px;
 }
+@media (max-width: 420px) {
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form__none-mobile {
+        display: none;
+    }  
+}
+
+.section__register{
+    height: 100vh;
+    padding-top: 10vh;
+}
+
+/* .register-img{
+    
+} */
+.result-deposition{
+    max-width: 43vh;
+}
+
+
+
+
+
 
 
 
