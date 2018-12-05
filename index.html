@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:200,400,600" rel="stylesheet">
 	<title>People Connect</title>
 	<!-- css bootstrap -->
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -17,7 +18,7 @@
 	<!-- navbar -->
 	<nav class="nav-primary navbar fixed-top navbar-expand-lg navbar-dark bg-info">
 		<div class="container">
-			<a class="navbar-brand" href="#">People Conecct</a>
+			<a class="navbar-brand" href="#">People-Conecct</a>
 			<!-- button sandwich -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
 			 aria-expanded="false" aria-label="Toggle navigation">
@@ -30,12 +31,20 @@
 						<a class="nav-link" href="#sobre">Sobre<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#missao">Missão</a>
+						<a class="nav-link" href="#iniciativas">Iniciativas</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="#depoimentos">Depoimentos</a>
 					</li>
-					<li class="nav-item dropdown dropdown-portifolio">
+					<li class="nav-item">
+						<a class="nav-link" href="#contato">Contacto</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#cadastro">Cadastro</a>
+					</li>
+
+
+					<!-- <li class="nav-item dropdown dropdown-portifolio">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
 						 aria-haspopup="true" aria-expanded="false">
 							Portifólio
@@ -70,7 +79,7 @@
 							<a class="dropdown-item" href="#">404</a>
 							<a class="dropdown-item" href="#">Pricing Table</a>
 						</div>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</div>
@@ -108,23 +117,154 @@
 		</div>
 	</section>
 
-	<!-- Seção Missão -->
-	<section id="missao" class="section__missao">
+	<!-- Seção Iniciativas -->
+	<section id="iniciativas" class="iniciativas">
 		<div class="container">
-			<div class="row justify-content-md-center">
-				<div class="d-sm-flex justify-content-center align-items-center flex-column col-lg-8">
-					<h4>Nossa Missão</h4>
-					<p>Nosso missão é conectar pessoas à profissionais especializados</p>
-					<p>Conheça algumas iniciativas:</p>
+			<div class="iniciativas-text-primary text-center">
+				<h4>Iniciativas:</h4>
+				<p>Nossa missão é conectar pessoas à profissionais especializados, para que tenham um tratamento digno. Conheça
+					algumas de nossas iniciativas:</p>
+			</div>
+			<div class="nossos-valores row">
+				<div class="valor1 col-lg-4">
+					<div class="container ">
+						<img class="iniciativas-image valor1" src="img/img-group.png" alt="">
+						<p class="iniciativas-text valor1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis, eveniet enim sit, impedit natus non
+							expedita esse asperiores vitae provident repudiandae recusandae accusantium similique modi, optio nulla ratione
+							iure.</p>
+					</div>
 				</div>
-				<div class="col-lg-4">
-					<img class="img-fluid" src="img/social-care.png" alt="imagem italia">
+				<div class="valor2 col-lg-4">
+					<div class="container">
+						<img class="iniciativas-image valor2" src="img/img-group.png" alt="">
+						<p class="iniciativas-text valor2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis, eveniet enim sit, impedit natus non
+							expedita esse asperiores vitae provident repudiandae recusandae accusantium similique modi, optio nulla ratione
+							iure.</p>
+					</div>>
+				</div>
+				<div class="valor3 col-lg-4">
+					<div class="container">
+						<img class="iniciativas-image valor3" src="img/img-group.png" alt="">
+						<p class="iniciativas-text valor3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis, eveniet enim sit, impedit natus non
+							expedita esse asperiores vitae provident repudiandae recusandae accusantium similique modi, optio nulla ratione
+							iure.</p>
+					</div>
 				</div>
 			</div>
+
 		</div>
 	</section>
 
+	<!-- Seção Contato -->
+	<section id="contato" class="contato background-form">
+			<div class="container contact-form">
+				<h2>Fale conosco</h2>
+				<hr>
+				<div class="row">
+					<div class="col-md-6">
+						<address>Rua francisco Cordeiro</address>
+						<p>Email:- teste@email.com.br</p>
+						<p>Phone:- 1199999999</p>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="name">Nome</label>
+							<input type="text" class="form-control" id="name">
+						</div>
+						<div class="form-group">
+							<label for="mail">Email</label>
+							<input type="text" class="form-control" id="mail">
+						</div>
+						<div class="form-group">
+							<label for="fone">Telefone</label>
+							<input type="text" class="form-control" id="fone">
+						</div>
+						<div class="form-group">
+							<label for="">Mensagem</label>
+							<textarea class="form-control" rows="5">
+							</textarea>
+						</div>
+						<div class="form-group">
+							<button class="btn btn-primary btn-block">Enviar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	</section>
+
+	<!-- Seção Cadastro -->
+	<form id="cadastro" data-toggle="validator" role="form">
+		<div class="container">
 	
+			<div class="form-group">
+				<label for="inputName" class="control-label">Nome</label>
+				<input type="text" class="form-control" id="inputName" placeholder="Digite seu nome" required>
+			</div>
+			<!-- <div class="form-group has-feedback">
+				<label for="inputTwitter" class="control-label">Twitter</label>
+				<div class="input-group">
+					<span class="input-group-addon">@</span>
+					<input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" class="form-control" id="inputTwitter" placeholder="1000hz"
+					 required>
+				</div>
+				<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+				<div class="help-block with-errors">Hey look, this one has feedback icons!</div>
+			</div> -->
+			<div class="form-group">
+				<label for="inputEmail" class="control-label">Email</label>
+				<input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="O email digitado invalido!"
+				 required>
+				<div class="help-block with-errors"></div>
+			</div>
+
+			<div class="form-group">
+				<label for="inputPassword" class="control-label">Password</label>
+				<div class="form-inline row">
+					<div class="form-group col-sm-6">
+						<input type="password" data-minlength="6" class="form-control" id="inputPassword" placeholder="Password" required>
+						<div class="help-block">Minimum of 6 characters</div>
+					</div>
+					<div class="form-group col-sm-6">
+						<input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Ops, senha incorreta"
+						 placeholder="Confirm" required>
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="radio">
+					<label>
+						<input type="radio" name="underwear" required>
+						Boxers
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="underwear" required>
+						Briefs
+					</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" id="terms" data-error="Before you wreck yourself" required>
+						Check yourself
+					</label>
+					<div class="help-block with-errors"></div>
+				</div>
+			</div>
+			<div class="form-group">
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+	</form>
+	
+
+	
+
+
 
 
 
@@ -149,10 +289,14 @@
 
 
 	<!-- js -->
-	<script src="../aula1/node_modules/jquery/dist/jquery.min.js">
+	<script src="node_modules/jquery/dist/jquery.min.js">
 	</script>
 
-	<script src="../aula1/node_modules/bootstrap/dist/js/bootstrap.min.js">
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js">
+	</script>
+
+	<!-- Validator -->
+	<script src="node_modules/bootstrap/dist/js/">
 	</script>
 </body>
 
