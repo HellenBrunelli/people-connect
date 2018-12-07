@@ -66,9 +66,17 @@ font-family: 'Open Sans', sans-serif;
 
 @media (max-width: 420px){
     .carousel-img {
-        margin-top: 10vh;
+        margin-top: 9vh;
+        text-align: center;
     }
 }
+
+@media (max-width: 420px){
+    .carousel-img {
+        margin-top: 9vh;
+    }
+}
+
 
 
 .carousel-title{
@@ -184,6 +192,7 @@ font-family: 'Open Sans', sans-serif;
 
 .section__initiatives {
     min-height: 100vh;
+    padding-top: 12vh;
     
 }
 
@@ -193,6 +202,31 @@ font-family: 'Open Sans', sans-serif;
     font-size: 35px;
 
 }
+
+.subtitle-initiatives{
+    color:#139AA0;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+@media (max-width: 768px) {
+    .initiatives__items{
+        display: flex;
+        align-items: center;
+        margin-bottom: 5vh;
+    
+    }
+}
+
+@media (max-width: 420px) {
+    .initiatives__items{
+        text-align: center;
+        display: block;
+    
+    }
+}
+
 
 .initiatives-image{
     max-height: 20vh;
@@ -220,6 +254,27 @@ font-family: 'Open Sans', sans-serif;
 }
 .mt-1{
     font-weight: 300;
+}
+
+@media (max-width: 420px) {
+    .text-center{
+        text-align: center;
+        display: block;
+
+    }
+    .img-testimonial{
+        display: none;
+    }
+    .margin-botton{
+        margin-bottom: 2px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .margin-bottom{
+        margin-bottom: 2px !important;
+    }
 }
 
 
@@ -276,11 +331,21 @@ hr{
 
 @media (max-width: 768px) {
     .contact-form{
-        width: 60%;
+        width: 100%;
     }
     .contact-form__none-mobile {
         display: none;
     }  
+    .background-form{
+        height: 114vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .textarea.form-control{
+        height: 8vh;
+    
+    }
 }
 
 
@@ -303,16 +368,41 @@ hr{
 }
 
 
+
+/* dados */
+.box-dados{
+    min-height: 16vh;
+}
+
+
+
+
 .box-footer{
     font-size: 15px;
     font-weight: lighter;
 
 }
+@media (max-width: 420px){
+    .box-footer{
+        display: flex;
+    
+    }
+}
+
 
 .text-footer{
     margin: 0;
     min-height: 50px;
 }
+
+@media (max-width: 768px) {
+    .text-footer{
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 
 
 
