@@ -5,16 +5,20 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/css?family=Oswald:200,400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 	<title>People Connect</title>
 	<!-- css bootstrap -->
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
 	<!-- css ou scss, colocar abaixo para sobreescrever -->
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
+	
 	<!-- navbar -->
 	<nav class="nav-primary navbar fixed-top navbar-expand-lg navbar-dark">
 		<div class="container">
@@ -27,23 +31,25 @@
 			<!-- List Links -->
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Home
+							<span class="sr-only">(current)</span>
+						</a>
 					</li>
 					<li class="nav-item ">
-						<a class="nav-link" href="#about">Sobre</a>
+						<a class="nav-link " href="#about">O que é</a>
 					</li>
 					<li class="nav-item  ">
-						<a class="nav-link" href="#initiatives">Iniciativas</a>
+						<a class="nav-link " href="#initiatives">Iniciativas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#testimonial">Depoimentos</a>
 					</li>
 					<li class="nav-item ">
-						<a class="nav-link" href="#depositions">Depoimentos</a>
+						<a class="nav-link " href="#contact">Contato</a>
 					</li>
 					<li class="nav-item ">
-						<a class="nav-link" href="#contact">Contato</a>
-					</li>
-					<li class="nav-item ">
-						<a class="nav-link" href="#register">Cadastro</a>
+						<a class="nav-link " href="#register">Cadastro</a>
 					</li>
 				</ul>
 			</div>
@@ -56,27 +62,68 @@
 			<div class="carousel-item active ">
 				<img class="carousel-img d-block w-100" src="img/header-connect.jpg" alt="Second slide">
 				<div class="carousel-caption d-none d-md-block">
-					<h2>Conectando Pessoas raras</h2>
-					<p>à profissionais especializados</p>
+					<h2 class="carousel-title" >Conectando Pessoas Raras</h2>
+					<p class="carousel-text" >À Profissionais Especializados</p>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<!-- Seção Sobre -->
-	<section id="about" class="section__about d-sm-flex justify-content-center align-items-center">
-		<div class="container">
-			<div class="row justify-content-md-center">
-				<div class="text-center text-justify col-lg-7">
-					<h4>Sobre Nós</h4>
-					<p>Nosso missão é conectar pessoas à profissionais especializados</p>
-					<p>A People-connect é uma plataforma segura e fácil de usar, na qual pacientes com diversos tipos de patologias, e
-						suas famílias podem se conectar com profissionais especializados.
-						Nossa missão é possibilitar um tratamento digno a todas as pessoas que não tem condições, nem acesso ao
-						tratamento, tendo em vista que na maioria dos casos o tratamento é imprescindível para a sobrevivência</p>
-				</div>
-				<div class="col-lg-5 d-sm-flex justify-content-center align-items-center">
-					<img class="img-fluid" src="img/social-care.png" alt="imagem italia">
+	<section id="about" class="section__about">
+		<div class="container-fluid">
+			<div class="container">
+	
+				<div class="about__box row">
+	
+	
+					<div class="img-PC-mobile col-md-6 txt-flex">
+						<img class="img-fluid" src="img/PC-mobile.jpg" alt="imagem italia">
+					</div>
+	
+	
+	
+					<div class="mobile-d-block col-md-6 txt-flex">
+						<div class="width-max">
+							<div class="row about__description">
+								<h3 class="about__title">PEOPLE-CONNECT</h3>
+								<h5 class="about__text" >
+										<p class="about__text">A People-connect é uma plataforma segura e fácil de usar, na qual pacientes com diversos
+										tipos de patologias, e
+										suas famílias podem se conectar com profissionais especializados.
+										Nossa missão é possibilitar um tratamento digno a todas as pessoas que não tem condições, nem acesso ao
+										tratamento, tendo em vista que na maioria dos casos o tratamento é imprescindível para a sobrevivência
+									</p>
+									<p>
+										<strong class="strong">
+											Nossa missão é conectar pessoas raras à profissionais especializados
+										</strong>
+									</p>
+								</h5>
+								<div class="about-icons-info row  mbot20 txt-flex">
+									<div class="about-item-img col-sm-4">
+										<img class="img-fluid" src="img/icon-about-mobile.jpg" alt="icone serviço versao mobile">
+									</div>
+									<div class="about-icon-text col-sm-8">
+										<h4>Prezamos pela segurança</h4>
+										<h6>Todos nossos voluntários tem registro confirmado no CREFISO.</h6>
+									</div>
+								</div>
+								<div class="about-icons-info row  mbot20 txt-flex">
+									<div class="about-item-img col-sm-4">
+										<img class="img-fluid" src="img/icon-about-assistant.jpg" alt="icone serviço versao mobile">
+									</div>
+									<div class="about-icon-text col-sm-8">
+										<h4>Fácil de usar</h4>
+										<h6>Não se preocupe, ele não ocupa a memória do seu celular, pois você acessa pelo seu navegador e tem uma experiência de app.</h6>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+	
 				</div>
 			</div>
 		</div>
@@ -84,74 +131,108 @@
 
 	<!-- Seção Iniciativas -->
 	<section id="initiatives" class="section__initiatives d-sm-flex justify-content-center align-items-center">
-		<div class="container">
-			<div class="initiatives-text-primary text-center">
-				<h4>Iniciativas:</h4>
-				<p>Nossa missão é conectar pessoas à profissionais especializados, para que tenham um tratamento digno. Conheça
-					algumas de nossas iniciativas:</p>
-			</div>
-			<div class="our-initiatives row">
-				<div class="value1 col-lg-4">
-					<div class="container ">
-						<div class="container">
-							<figure class="figure">
-								<img class="initiatives-image rounded value1" src="img/img-ame.jpg" alt="">
-							</figure>
-						</div>
-						<p class="initiatives-text value1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis,
-							eveniet enim sit, impedit natus non
-							expedita esse asperiores vitae provident repudiandae recusandae accusantium similique modi, optio nulla ratione
-							iure.</p>
-					</div>
-				</div>
-				<div class="value2 col-lg-4">
-					<div class="container">
-						<figure class="figure">
-							<img class="initiatives-image value2" src="img/medula-img.jpg" alt="">
-						</figure>
-						<p class="initiatives-text value2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis,
-							eveniet enim sit, impedit natus non
-							expedita esse asperiores vitae provident repudiandae recusandae accusantium similique modi, optio nulla ratione
-							iure.</p>
-					</div>>
-				</div>
-				<div class="value3 col-lg-4">
-					<div class="container">
-						<figure class="figure">
-							<img class="initiatives-image value3" src="img/img-group.png" alt="">
-						</figure>
-						<p class="initiatives-text value3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis,
-							eveniet enim sit, impedit natus non
-							expedita esse asperiores vitae provident repudiandae recusandae accusantium similique modi, optio nulla ratione
-							iure.</p>
-					</div>
-				</div>
-			</div>
+		<div class="container-fluid d-sm-flex justify-content-">
 
+			<div class="container ">
+				<div class="initiatives-description text-center">
+					<h4 class="main-title initiatives-title">Iniciativas:</h4>
+					<p class="margin-botton strong">Conheça algumas iniciativas que farão parte deste projeto futuramente:</p>
+				</div>
+
+				<div class="margin-top70 our-initiatives row">
+					<div class="value1 col-lg-4">
+						<div class="container ">
+							<div class="container-fluid">
+								<figure class="figure">
+									<img class="image-fluid initiatives-image rounded value1" src="img/img-ame.jpg" alt="">
+								</figure>
+							</div>
+							<p class="initiatives-text value1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis,
+								eveniet enim sit, impedit natus non
+								expedita esse asperiores vitae provident repudiandae recusandae accusantium similique modi, optio nulla ratione
+								iure.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="margin-top70 our-initiatives row">
+					<div class="value1 col-lg-4">
+						<div class="container ">
+							<div class="container-fluid">
+								<figure class="figure">
+									<img class="image-fluid initiatives-image rounded value2" src="img/img-ame.jpg" alt="">
+								</figure>
+							</div>
+							<p class="initiatives-text value1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis,
+								eveniet enim sit, impedit natus non
+								expedita esse asperiores vitae provident repudiandae recusandae accusantium similique modi, optio nulla ratione
+								iure.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="margin-top70 our-initiatives row">
+					<div class="value1 col-lg-4">
+						<div class="container ">
+							<div class="container-fluid">
+								<figure class="figure">
+									<img class="image-fluid initiatives-image rounded value3" src="img/img-ame.jpg" alt="">
+								</figure>
+							</div>
+							<p class="initiatives-text value1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis,
+								eveniet enim sit, impedit natus non
+								expedita esse asperiores vitae provident repudiandae recusandae accusantium similique modi, optio nulla ratione
+								iure.</p>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+			</div>
 		</div>
 	</section>
 
 	<!-- Seção Depoimentos -->
-	<section id="depositions" class="section__depositions">
-		<div class="card" style="width: 18rem;">
-			<img class="card-img-top" src="img/marlon.jpg" alt="Card image cap">
-			<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-			 aria-controls="collapseExample">
-				Veja o depoimento
-			</a>
-		</div>
-		</div>
-
-		<div class="result-deposition collapse" id="collapseExample">
-			<div class="result-deposition card card-body">
-				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh
-				helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+	<section id="testimonial" class="section__testimonial">
+		<div class="container-fluid ">
+			<div class="container text-center">
+					<h3 class="main-title">Depoimentos</h3>
+					<hr>
 			</div>
 		</div>
 
+		<div class="margin-botton container-fluid d-sm-flex justify-content-center align-items-center media">
+			<div class="container d-sm-flex margin-top">
+				<a href="https://www.facebook.com/ajudeoguerreirosamuel/?ref=br_rs">
+					<img class="img-testimonial rounded-circle  " src="img/marlon.jpg" alt="Generic placeholder image">
+				</a>
+				<div class="text-testimonial d-sm-flex flex-sm-column justify-content-around">
+					<h5 class="mt-0">Depoimento de Joseli A. dos Santos, mãe do Samuel - portador de Síndrome de Berdon 3 anos</h5>
+					<p class="mt-1">A fisioterapia e a terapia ocupacional estimulam e ajudam a amenizar os disturbios físicos e mentais do Samuel. Sendo assim ele tem mais chances de conseguir se locomover, e interagir socialmente, melhorando sua qualidade de vida. A importância de ter essa assistência de forma gratuita é que todas as famílias teriam chance de dar uma vida melhor para seus filhos que nascem com algum tipo de doença rara.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="margin-botton container-fluid d-sm-flex justify-content-center align-items-center media">
+				<div class="container d-sm-flex justify-content-end">
+					<div class="text-testimonial d-sm-flex flex-sm-column justify-content-around">
+						<h5 class="mt-0">Depoimento de Joseli A. dos Santos, mãe do Samuel - portador de Síndrome de Berdon 3 anos</h5>
+						<p class="mt-1">A fisioterapia e a terapia ocupacional estimulam e ajudam a amenizar os disturbios físicos e mentais do Samuel. Sendo assim ele tem mais chances de conseguir se locomover, e interagir socialmente, melhorando sua qualidade de vida. A importância de ter essa assistência de forma gratuita é que todas as famílias teriam chance de dar uma vida melhor para seus filhos que nascem com algum tipo de doença rara.
+						</p>
+					</div>
+					<a href="https://www.facebook.com/ajudeoguerreirosamuel/?ref=br_rs">
+						<img class="img-testimonial rounded-circle  " src="img/marlon.jpg" alt="Generic placeholder image">
+					</a>
+				</div>
+			</div>
+		
 	</section>
-
-
 
 	<!-- Seção Contato -->
 	<section id="contact" class="contact background-form">
@@ -191,31 +272,46 @@
 	</section>
 
 	<!-- Seção Cadastro -->
-	<section id="register" class="section__register">
-		<div class="container row"></div>
-
+	<section id="register" class="section__register d-sm-flex justify-content-center align-items-center">
+		<div class="container d-sm-flex justify-content-center align-items-center">
+			<form class="form-signin">
+				<div class="container">
+					<h1 class="h3 mb-3 font-weight-normal">Cadastre-se</h1>
+					<label for="inputEmail" class="sr-only">Email address</label>
+					<input class="input-space" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+					<label for="inputPassword" class="sr-only">Password</label>
+					<input class="input-space" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+					<div class="checkbox mb-3">
+						<label>
+							<input type="checkbox" value="remember-me"> Remember me
+						</label>
+					</div>
+					<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+					<p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+				</div>
+				</form>
+		</div>
 	</section>
 
 
 
-	<footer class="box-footer ">
-		<div class="container bg-dark">
-			<p>Copyright © Your Website 2018</p>
-			<p>Copyright © Your Website 2018</p>
+	<footer class="box-footer bg-dark text-white d-sm-flex align-items-center justify-content-center">
+		<div class="d-sm-flex align-items-center">
+			<p class="text-footer d-sm-flex align-items-center">Copyright © Your Website 2018 - Desenvolvido por Hellen Brunelli</p>
 		</div>
 	</footer>
 
 
 	<!-- js -->
-	<script src="node_modules/jquery/dist/jquery.min.js">
+	<script src="node_modules/jquery/dist/jquery.min.js	">
 	</script>
 
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js">
 	</script>
 
 	<!-- Validator -->
-	<script src="">
-	</script>
+	<!-- <script src="">
+	</script> -->
 </body>
 
 </html>
