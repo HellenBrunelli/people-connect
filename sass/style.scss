@@ -1,0 +1,415 @@
+html,body{
+    width: 100%;
+    height:100%;
+font-family: 'Open Sans', sans-serif;
+}
+
+/* Principais */
+.main-title{
+    font-size: 2rem;
+    font-family: 'Open Sans';
+    color: #3C3F43;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.margin-botton{
+    margin-bottom: 20px;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.margin-top70{
+    margin-top: 70px;
+}
+
+.call-to-action .row{
+    padding: 15px 0;
+}
+
+
+/* NAVBAR */
+.nav-primary{
+    background-color: #139AA0;
+    text-shadow: rgb(250, 248, 248) 0.1em 0.1em 0.8em;
+    
+    .nav-primary .navbar-collapse{
+        justify-content: flex-end;
+    }
+
+}
+
+
+
+
+/* CARROSSEL */
+.caroulsel-banner{
+    margin-top: 56px;
+    
+    & img{
+        height: 60vh;  
+        object-fit: cover; 
+
+        & h5{
+            font-size: 3.2rem;
+        }
+
+    }
+
+
+}
+
+
+
+
+.carousel-img{
+    margin-top: 8vh;
+
+    @media (max-width: 420px){
+        .carousel-img {
+            margin-top: 9vh;
+            text-align: center;
+        }
+    }
+
+}
+
+
+.carousel-title{
+    font-size: 3rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+.carousel-text{
+    font-size: 1.7rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+
+
+
+/* ABOUT */
+.section__about {
+    min-height: 100vh;
+}
+.about__box{
+    /* margin-top: 5vh; */
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.about__description{
+    padding-top: 53px;
+    padding-left: 50px;
+
+    @media (max-width: 420px){
+        .about__description {
+            padding-top: 3px;
+            padding-left: 38px;
+        }
+    
+    }
+}
+@media (max-width: 768px){
+    .mobile-d-block{
+        display: flex;
+    }
+}
+
+/* IMAGEM DO CEL SOME NO MOBILE */
+
+@media (max-width: 420px) {
+    .img-PC-mobile{
+        display: none;
+    }
+}
+
+
+.about__title{
+    font-size: 2rem;
+    font-family: 'Open Sans';
+    color: #b3e2ed;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+    @media (max-width: 420px){
+        .about__title {
+            font-size: 1.5rem;
+        }
+    
+    }
+}
+
+
+.strong{
+    font-family: 'Open Sans';
+    font-weight: bolder;
+    font-size: 1rem;
+    color: rgb(78, 78, 78);
+}
+
+.about__text{
+    font-size: 1.5rem;
+    font-family: "Open Sans";
+    color: #139aa0;
+    font-weight: lighter;
+
+    @media (max-width: 420px){
+        .about__text {
+            font-size: 1.3rem;
+        }
+    
+    }
+}
+
+.about-icons-info{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 420px){
+    .about-item-img{
+        margin-right: 35px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 420px){
+    .about-icon-text{
+        text-align: center;
+        margin-right: 35px;
+    }
+}
+
+
+
+
+
+/* INICIATIVAS */
+
+.section__initiatives {
+    min-height: 100vh;
+    padding-top: 12vh;
+    
+}
+
+.initiatives-title{
+    color:#139AA0;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.subtitle-initiatives{
+    color:#139AA0;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+@media (max-width: 768px) {
+    .initiatives__items{
+        display: flex;
+        align-items: center;
+        margin-bottom: 5vh;
+    
+    }
+}
+
+@media (max-width: 420px) {
+    .initiatives__items{
+        text-align: center;
+        display: block;
+    
+    }
+}
+
+
+.initiatives-image{
+    max-height: 20vh;
+}
+
+
+
+/* DEPOIMENTOS */
+
+.section__testimonial{
+    padding-top: 14vh;
+    min-height: 100vh;
+    background-color: #EEEEEE;
+}
+
+
+
+/* .testimonial-item{
+    padding-top: 25px;
+    padding-bottom: 25px;
+} */
+
+.mt-0{
+    font-weight: 600;
+}
+.mt-1{
+    font-weight: 300;
+}
+
+@media (max-width: 420px) {
+    .text-center{
+        text-align: center;
+        display: block;
+
+    }
+    .img-testimonial{
+        display: none;
+    }
+    .margin-botton{
+        margin-bottom: 2px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .margin-bottom{
+        margin-bottom: 2px !important;
+    }
+}
+
+
+.img-testimonial{
+    max-height: 32vh;
+    box-shadow: 0px 0px 10px 1px rgb(175, 174, 174);
+}
+
+.text-testimonial{
+    max-width: 114vh;
+    padding-left: 30px;
+
+}
+
+
+
+
+
+
+/* FORMULARIO */
+
+.background-form{
+    background-image: url(../img/genoma.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 80px;
+}
+@media (max-width: 420px) {
+    .background-form {
+        padding-top: 58px;
+    }
+}
+
+hr{
+    background: white;
+}
+
+.contact-form{
+    background: rgba(0, 0, 0, .6);
+    color: white;  
+    box-shadow: 0px 0px 10px 1px rgb(175, 174, 174);
+    border-radius: 10px;
+    width: 60%; 
+    padding-top: 10px;
+}
+@media (max-width: 420px) {
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form__none-mobile {
+        display: none;
+    }  
+}
+
+@media (max-width: 768px) {
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form__none-mobile {
+        display: none;
+    }  
+    .background-form{
+        height: 114vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .textarea.form-control{
+        height: 8vh;
+    
+    }
+}
+
+
+
+
+/* CADASTRO */
+
+.section__register{
+    height: 100vh;
+    padding-top: 10vh;
+}
+
+
+.result-deposition{
+    max-width: 43vh;
+}
+
+.input-space{
+    margin-bottom: 5px;
+}
+
+
+
+/* dados */
+.box-dados{
+    min-height: 16vh;
+}
+
+
+
+
+.box-footer{
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+@media (max-width: 420px){
+    .box-footer{
+        display: flex;
+    
+    }
+}
+
+
+.text-footer{
+    margin: 0;
+    min-height: 50px;
+}
+
+@media (max-width: 768px) {
+    .text-footer{
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
